@@ -9,12 +9,14 @@ class GroundVehicle():
     
     def drive(self):
         print('vroooom')
+        return 'vroooom'
 
 class Motorcycle(GroundVehicle):
     def __init__(self):
         self.num_wheels = 2
     def drive(self):
         print('BRAAAP!!')
+        return 'BRAAAP!!'
 
 
 # Subclass Motorcycle from GroundVehicle.
